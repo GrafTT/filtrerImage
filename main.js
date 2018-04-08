@@ -135,6 +135,6 @@ downloadBtn.addEventListener('click', (e)=>{
         link.href = canvas.toDataURL('image/jpeg', 0.8);
         
         e = new MouseEvent('click');
-        link.dispatchEvent(e)
+        link.dispatchEvent(e);
     }
 })
